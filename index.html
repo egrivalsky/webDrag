@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -13,11 +14,13 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-    <div id='background'> 
-            {% comment %} <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> {% endcomment %}
-            <img class='image' id="drag1" src="./assets/1.jpg" draggable="true" ondragstart="drag(event)" >
-            {% comment %} </div> {% endcomment %}
-        </div>
-        {% comment %} <script src='./js/script.js' async defer></script> {% endcomment %}
+    <div id='background' style='top: 20px; left: 30px;'> 
+            <div id="div1" draggable='true'></div>
+    <div id='cord-container'>
+        <h4>Div: </h4><p id='div-title'</p>
+        <h4>X-cord: </h4><p id='x-cord'></p>
+        <h4>Y-cord: </h4><p id='y-cord'></p>
+    </div>
+        <script src='./js/app.js' async defer></script>
     </body>
 </html>

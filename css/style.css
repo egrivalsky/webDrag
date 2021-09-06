@@ -1,5 +1,7 @@
 
-
+* {
+    color: white
+}
 #background {
     display: flex;
     background-color: black;
@@ -7,14 +9,28 @@
     height: 1000px;
 }
 
-.image {
+/* .image {
     border: black 2px solid;
     width: 25%;
     height: 25%;
-}
+} */
 
-#drag1 {
+/* #drag1 {
     position: absolute;
     left: 20px;
     top: 150px;
+} */
+
+#div1 {
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    left: 30px;
+    background-color: aqua;
+}
+
+#cord-container {
+    position: absolute;
+    bottom: 100px;
 }
